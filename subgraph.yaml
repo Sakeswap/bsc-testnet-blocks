@@ -1,5 +1,5 @@
 specVersion: 0.0.2
-description: Indexing all Binance Smart Chain Block data
+description: Indexing all Binance Smart Chain Block Timestamp
 repository: https://github.com/bscswap/bsc-blocks
 schema:
   file: ./schema.graphql

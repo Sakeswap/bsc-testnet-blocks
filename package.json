@@ -1,13 +1,13 @@
 {
-  "name": "bsc-blocks",
+  "name": "bsc-blocks-timestamp",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ blocklytics/ethereum-blocks",
-    "create-local": "graph create --node http://localhost:8020/ bscswap/bsc-blocks",
-    "remove-local": "graph remove --node http://localhost:8020/ bscswap/bsc-blocks",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 bscswap/bsc-blocks",
+    "create-local": "graph create --node http://localhost:8020/ bscswap/bsc-blocks-timestamp",
+    "remove-local": "graph remove --node http://localhost:8020/ bscswap/bsc-blocks-timestamp",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 bscswap/bsc-blocks-timestamp",
     "deploy-rinkeby": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ blocklytics/rinkeby-blocks",
     "deploy-kovan": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ blocklytics/kovan-blocks",
     "deploy-goerli": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ blocklytics/goerli-blocks",
